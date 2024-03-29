@@ -35,7 +35,7 @@ void swap(int x, int y)
 	int temp = arr[x];
 	arr[x] = arr[y];
 	arr[y] = temp;
-	mov_cout++;
+	mov_count++;
 
 
 }
@@ -59,7 +59,7 @@ void q_short(int low, int high)
 		//search for an element greater than pivot
 		while ((arr[i] <= pivot) && (i <= high)) // step 5
 		{
-			i++; //step 6
+			i++; //step 6 
 			cmp_count++;
 		}
 		cmp_count++;
